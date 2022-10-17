@@ -1,5 +1,5 @@
 /* eslint-env jest */
-
+import 'jsdom-global/register';
 import React from 'react';
 import { mount } from 'enzyme';
 import Nouislider from '../src';
