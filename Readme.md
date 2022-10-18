@@ -29,7 +29,7 @@ yarn add @x1mrdonut1x/nouislider-react
 ```js
 import React from "react";
 import Nouislider from "@x1mrdonut1x/nouislider-react";
-import "nouislider/distribute/nouislider.css";
+import "@x1mrdonut1x/nouislider/distribute/nouislider.css";
 
 const Slider = () => (
   <Nouislider range={{ min: 0, max: 100 }} start={[20, 80]} connect />
@@ -43,7 +43,7 @@ const Slider = () => (
 ```js
 import React from "react";
 import Nouislider from "@x1mrdonut1x/nouislider-react";
-import "nouislider/distribute/nouislider.css";
+import "@x1mrdonut1x/nouislider/distribute/nouislider.css";
 
 import "./colorpicker.css";
 
@@ -89,7 +89,7 @@ class Colorpicker extends React.Component {
 ```js
 import React from "react";
 import Nouislider from "@x1mrdonut1x/nouislider-react";
-import "nouislider/distribute/nouislider.css";
+import "@x1mrdonut1x/nouislider/distribute/nouislider.css";
 
 class Slider extends React.Component {
   state = {
@@ -136,7 +136,7 @@ class Slider extends React.Component {
 ```js
 import React from "react";
 import Nouislider from "@x1mrdonut1x/nouislider-react";
-import "nouislider/distribute/nouislider.css";
+import "@x1mrdonut1x/nouislider/distribute/nouislider.css";
 
 const KeyboardSlider = () => (
   <Nouislider
@@ -191,7 +191,7 @@ class KeyboardSlider extends React.Component {
 ```js
 import React from "react";
 import Nouislider from "@x1mrdonut1x/nouislider-react";
-import "nouislider/distribute/nouislider.css";
+import "@x1mrdonut1x/nouislider/distribute/nouislider.css";
 
 const KeyboardSlider = () => (
   <Nouislider
@@ -211,7 +211,7 @@ const KeyboardSlider = () => (
 ```js
 import React from "react";
 import Nouislider from "@x1mrdonut1x/nouislider-react";
-import "nouislider/distribute/nouislider.css";
+import "@x1mrdonut1x/nouislider/distribute/nouislider.css";
 
 class KeyboardSlider extends React.Component {
   state = { value: 0 };
