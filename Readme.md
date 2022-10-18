@@ -1,12 +1,10 @@
 [![Build Status](https://travis-ci.org/mmarkelov/react-nouislider.svg?branch=master)](https://travis-ci.org/mmarkelov/react-nouislider)
 [![Coverage Status](https://coveralls.io/repos/github/mmarkelov/react-nouislider/badge.svg)](https://coveralls.io/github/mmarkelov/react-nouislider)
 
-**This project is created as react-nouislider package is not well maintained.
-Also you can have a look at other natives react sliders: https://www.google.com/search?q=react+slider**
 
-# nouislider-react
+# @x1mrdonut1x/nouislider-react
 
-Wraps [leongersen/noUiSlider](https://github.com/leongersen/noUiSlider) in a [react component](https://facebook.github.io/react/docs/component-api.html).
+React 18 compatible version of [nouislider-react](https://github.com/mmarkelov/react-nouislider).
 
 ## Documentation
 
@@ -19,18 +17,18 @@ All the options used in nouislider-react are then passed to noUiSlider. See the 
 ## Usage
 
 ```sh
-npm install nouislider-react
+npm install @x1mrdonut1x/nouislider-react
 ```
 
 or
 
 ```sh
-yarn add nouislider-react
+yarn add @x1mrdonut1x/nouislider-react
 ```
 
 ```js
 import React from "react";
-import Nouislider from "nouislider-react";
+import Nouislider from "@x1mrdonut1x/nouislider-react";
 import "nouislider/distribute/nouislider.css";
 
 const Slider = () => (
@@ -44,7 +42,7 @@ const Slider = () => (
 
 ```js
 import React from "react";
-import Nouislider from "nouislider-react";
+import Nouislider from "@x1mrdonut1x/nouislider-react";
 import "nouislider/distribute/nouislider.css";
 
 import "./colorpicker.css";
@@ -90,7 +88,7 @@ class Colorpicker extends React.Component {
 
 ```js
 import React from "react";
-import Nouislider from "nouislider-react";
+import Nouislider from "@x1mrdonut1x/nouislider-react";
 import "nouislider/distribute/nouislider.css";
 
 class Slider extends React.Component {
@@ -137,7 +135,7 @@ class Slider extends React.Component {
 
 ```js
 import React from "react";
-import Nouislider from "nouislider-react";
+import Nouislider from "@x1mrdonut1x/nouislider-react";
 import "nouislider/distribute/nouislider.css";
 
 const KeyboardSlider = () => (
@@ -192,7 +190,7 @@ class KeyboardSlider extends React.Component {
 
 ```js
 import React from "react";
-import Nouislider from "nouislider-react";
+import Nouislider from "@x1mrdonut1x/nouislider-react";
 import "nouislider/distribute/nouislider.css";
 
 const KeyboardSlider = () => (
@@ -212,7 +210,7 @@ const KeyboardSlider = () => (
 
 ```js
 import React from "react";
-import Nouislider from "nouislider-react";
+import Nouislider from "@x1mrdonut1x/nouislider-react";
 import "nouislider/distribute/nouislider.css";
 
 class KeyboardSlider extends React.Component {
